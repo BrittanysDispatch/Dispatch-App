@@ -17,7 +17,7 @@ Web-based EMS dispatch system to:
 - Hard warning for overlapping units
 - Escalation color coding as pickup time approaches
 
-## Database Blueprint
+## Database Blueprint:
 Tables:
 1. Calls
 2. Patients
