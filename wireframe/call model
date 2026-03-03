@@ -1,0 +1,46 @@
+# Call Detail Modal
+
+## Trigger
+- Opens when dispatcher clicks a call block
+- Opens when clicking a pending call card
+
+## Information Displayed
+
+### Caller Info
+- Caller name
+- Callback number
+
+### Pickup Info
+- Location
+- Department
+- Room
+- Pickup time
+- Appointment duration
+
+### Dropoff Info
+- Location
+- Department
+- Room
+
+### Patient Info
+- First name
+- Last name
+- Date of birth
+- Address
+- Condition
+
+### Insurance Info
+- Primary insurance
+- Policy number
+- Authorization number
+- Secondary insurance
+- Tertiary insurance
+
+### Notes
+- Shared editable notes
+- Visible to all dispatchers
+
+## Behavior
+- Clean layout
+- Scrollable if needed
+- Editable fields (future feature)
