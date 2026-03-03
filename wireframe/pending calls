@@ -1,0 +1,7 @@
+Pending Calls Bar Notes:
+- Horizontal strip at top showing pending calls
+- Displays pickup & dropoff locations and pickup time
+- Color-coded by priority (Green = Routine, Yellow = Urgent, Red = STAT)
+- Draggable to schedule grid
+- Escalates color intensity as pickup time approaches
+- Clicking card expands to full call details
