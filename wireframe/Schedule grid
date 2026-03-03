@@ -1,0 +1,37 @@
+# Schedule Grid Layout
+
+## Structure
+- Rows represent Units / Trucks
+- Columns represent time in 15-minute increments
+- Full day view (ex: 6:00 AM – 10:00 PM)
+
+## Time Display
+- Hour-by-hour breakdown
+- Each hour divided into:
+  - :00
+  - :15
+  - :30
+  - :45
+
+## Call Blocks
+- Calls appear as rectangular blocks
+- Block spans the duration of the appointment
+  - 30 min = 2 time slots
+  - 60 min = 4 time slots
+  - 90 min = 6 time slots
+
+## Current Time Indicator
+- Vertical red line across schedule
+- Moves in real-time
+
+## Drag and Drop Rules
+- Calls dragged from Pending Bar to unit row
+- Drop allowed even if overlap occurs
+- Hard warning popup appears if overlapping
+- Dispatcher may override
+- Overrides are logged
+
+## Status Indicators
+- Pending (Top Bar)
+- Assigned (On Schedule)
+- Completed (Faded or greyed out)
