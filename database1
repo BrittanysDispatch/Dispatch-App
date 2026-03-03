@@ -1,0 +1,40 @@
+# Database Tables
+
+## Calls
+- id
+- caller_name
+- callback_number
+- pickup_location
+- pickup_department
+- pickup_room
+- pickup_time
+- appointment_duration
+- dropoff_location
+- dropoff_department
+- dropoff_room
+- notes
+- assigned_unit_id
+- status (Pending / Assigned / Completed)
+
+## Patients
+- id
+- first_name
+- last_name
+- date_of_birth
+- address
+- condition
+- call_id (links to Calls table)
+
+## Insurance
+- id
+- patient_id (links to Patients)
+- insurance_type (Primary / Secondary / Tertiary)
+- company_name
+- policy_number
+- authorization_number
+
+## Units / Trucks
+- id
+- unit_number
+- truck_number
+- status (Available / Busy / Out of Service)
